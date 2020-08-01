@@ -25,14 +25,22 @@ end
 
 def kesha_maker(array)
   array.each do |item|
-    item[2] = "$"
+    item[2] = "$" #turns the 3rd letter into the $
   end
 end
 
 def find_a(array)
+  array.find_all do |word|
+    word [0] == "a" #should find all words that start with a
+  end
 end
 
 def sum_array(array)
+  sum = 0
+  array.each do |num|
+    sum += num #add number to each number of array
+  end
+  sum #return new number
 end
 
 def add_s(array)

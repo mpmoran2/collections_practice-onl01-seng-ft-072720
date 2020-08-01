@@ -39,10 +39,17 @@ def sum_array(array)
   sum = 0
   array.each do |num|
     sum += num #add number to each number of array
+    #If I used inject, it would be like this 
+    #array.inject do |sum,x|
+    #  sum + x
   end
   sum #return new number
 end
 
 def add_s(array)
-  
+  array.collect do |word|
+    if array[1] == word #if the word comes back true
+      word #return word
+    else
+      word + "s" #otherwise return word with s at end
 end

@@ -4,4 +4,11 @@ end
 def sort_array_desc(array)
 end
 
-sort_array_char_count
+def sort_array_char_count
+end
+
+def swap_elements
+end
+
+def
+end

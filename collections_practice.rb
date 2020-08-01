@@ -22,5 +22,5 @@ end
 def sum_array
 end
 
-def
+def add_s
 end
